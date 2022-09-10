@@ -33,4 +33,7 @@ function preload(){
     rightWristY = results[0].pose.rightWrist.y;
 console.log("leftwristx = "+ leftWristX + " rightwristx = "+ rightWristX + " leftwristy = "+ leftWristY + " rightwristy = "+ rightWristY);
     }
+    else {
+       console.error(error);
+    }
  }
